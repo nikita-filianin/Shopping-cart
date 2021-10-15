@@ -1,0 +1,213 @@
+23:09:32.929 [main] c.s.cart.ShoppingCartApplication
+INFO : Starting ShoppingCartApplication using Java 11.0.11 on Nukutka-PC with PID 12228 (C:\Users\Nikita\IdeaProjects\Shopping-cart-JSP-main\target\classes started by Nikita in C:\Users\Nikita\IdeaProjects\Shopping-cart-JSP-main)
+
+23:09:32.931 [main] c.s.cart.ShoppingCartApplication
+DEBUG: Running with Spring Boot v2.5.2, Spring v5.3.8
+
+23:09:32.932 [main] c.s.cart.ShoppingCartApplication
+INFO : No active profile set, falling back to default profiles: default
+
+23:09:35.979 [main] c.s.cart.ShoppingCartApplication
+INFO : Started ShoppingCartApplication in 3.513 seconds (JVM running for 4.171)
+
+23:10:05.737 [http-nio-8080-exec-2] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:11.351 [http-nio-8080-exec-4] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:28.507 [http-nio-8080-exec-6] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=1, name=Pizza, price=220.00) added to cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:28.507 [http-nio-8080-exec-6] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 220.00
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:28.540 [http-nio-8080-exec-7] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:33.445 [http-nio-8080-exec-9] c.s.c.service.impl.CartServiceImpl
+INFO : Updated cart: CartDTO(cartItems=[CartItemDTO(id=83, product=ProductGetDTO(id=1, name=Pizza, price=220.00), quantity=2)], totalPrice=220.00)
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:33.446 [http-nio-8080-exec-9] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 440.00
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:33.455 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:47.979 [http-nio-8080-exec-3] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:49.674 [http-nio-8080-exec-5] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:51.326 [http-nio-8080-exec-7] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=4, name=Apple, price=2.90) added to cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:51.326 [http-nio-8080-exec-7] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 442.90
+By: USER(name = Nikita, surname = Filianin)
+
+23:10:51.334 [http-nio-8080-exec-8] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:00.048 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Updated cart: CartDTO(cartItems=[CartItemDTO(id=83, product=ProductGetDTO(id=1, name=Pizza, price=220.00), quantity=2), CartItemDTO(id=84, product=ProductGetDTO(id=4, name=Apple, price=2.90), quantity=4)], totalPrice=442.90)
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:00.049 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 451.60
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:00.054 [http-nio-8080-exec-1] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:02.610 [http-nio-8080-exec-3] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:11.239 [http-nio-8080-exec-5] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=3, name=Water, price=9.50) added to cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:11.239 [http-nio-8080-exec-5] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 461.10
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:11.245 [http-nio-8080-exec-6] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:16.184 [http-nio-8080-exec-8] c.s.c.service.impl.CartServiceImpl
+INFO : Updated cart: CartDTO(cartItems=[CartItemDTO(id=83, product=ProductGetDTO(id=1, name=Pizza, price=220.00), quantity=2), CartItemDTO(id=84, product=ProductGetDTO(id=4, name=Apple, price=2.90), quantity=4), CartItemDTO(id=85, product=ProductGetDTO(id=3, name=Water, price=9.50), quantity=6)], totalPrice=461.10)
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:16.184 [http-nio-8080-exec-8] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 508.60
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:16.189 [http-nio-8080-exec-9] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:20.831 [http-nio-8080-exec-1] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:20.837 [http-nio-8080-exec-1] c.s.c.service.impl.CartServiceImpl
+INFO : Cart is empty.
+By: USER(name = Nikita, surname = Filianin)
+
+23:11:52.179 [http-nio-8080-exec-3] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: ADMIN(name = Bob, surname = Brown)
+
+23:11:58.000 [http-nio-8080-exec-5] c.s.c.s.impl.ProductServiceImpl
+INFO : Product deleted. Product(id=23, name=Cucumber, price=6.55)
+By: ADMIN(name = Bob, surname = Brown)
+
+23:11:58.006 [http-nio-8080-exec-6] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: ADMIN(name = Bob, surname = Brown)
+
+23:12:23.657 [http-nio-8080-exec-10] c.s.c.s.impl.ProductServiceImpl
+INFO : New Product(id=55, name=Pepper, price=7.45) added.
+By: ADMIN(name = Bob, surname = Brown)
+
+23:12:23.663 [http-nio-8080-exec-1] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: ADMIN(name = Bob, surname = Brown)
+
+23:12:30.531 [http-nio-8080-exec-5] c.s.c.service.impl.PersonServiceImpl
+INFO : Request for person list.
+By: ADMIN(name = Bob, surname = Brown)
+
+23:16:52.974 [http-nio-8080-exec-10] c.s.c.service.impl.PersonServiceImpl
+INFO : Registration successful. New user: PersonGetDTO(id=15, firstName=Test, lastName=Test, username=test, role=USER, email=test@mail.com)
+By: anonymousUser
+
+23:17:00.907 [http-nio-8080-exec-7] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Test, surname = Test)
+
+23:17:01.874 [http-nio-8080-exec-9] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=1, name=Pizza, price=220.00) added to cart.
+By: USER(name = Test, surname = Test)
+
+23:17:01.874 [http-nio-8080-exec-9] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 220.00
+By: USER(name = Test, surname = Test)
+
+23:17:01.889 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:02.580 [http-nio-8080-exec-1] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Test, surname = Test)
+
+23:17:03.589 [http-nio-8080-exec-4] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=2, name=Cola, price=15.00) added to cart.
+By: USER(name = Test, surname = Test)
+
+23:17:03.590 [http-nio-8080-exec-4] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 235.00
+By: USER(name = Test, surname = Test)
+
+23:17:03.605 [http-nio-8080-exec-3] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:04.368 [http-nio-8080-exec-7] c.s.c.s.impl.ProductServiceImpl
+INFO : Request to get product list.
+By: USER(name = Test, surname = Test)
+
+23:17:05.143 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Product(id=3, name=Water, price=9.50) added to cart.
+By: USER(name = Test, surname = Test)
+
+23:17:05.143 [http-nio-8080-exec-10] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 244.50
+By: USER(name = Test, surname = Test)
+
+23:17:05.152 [http-nio-8080-exec-5] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:05.983 [http-nio-8080-exec-8] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:11.766 [http-nio-8080-exec-5] c.s.c.service.impl.CartServiceImpl
+INFO : Updated cart: CartDTO(cartItems=[CartItemDTO(id=16, product=ProductGetDTO(id=1, name=Pizza, price=220.00), quantity=3), CartItemDTO(id=17, product=ProductGetDTO(id=2, name=Cola, price=15.00), quantity=6), CartItemDTO(id=18, product=ProductGetDTO(id=3, name=Water, price=9.50), quantity=9)], totalPrice=244.50)
+By: USER(name = Test, surname = Test)
+
+23:17:11.767 [http-nio-8080-exec-5] c.s.c.service.impl.CartServiceImpl
+INFO : Cart total price: 835.50
+By: USER(name = Test, surname = Test)
+
+23:17:11.780 [http-nio-8080-exec-1] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:12.964 [http-nio-8080-exec-4] c.s.c.service.impl.CartServiceImpl
+INFO : Request to fetch cart.
+By: USER(name = Test, surname = Test)
+
+23:17:12.970 [http-nio-8080-exec-4] c.s.c.service.impl.CartServiceImpl
+INFO : Cart is empty.
+By: USER(name = Test, surname = Test)
+
+
